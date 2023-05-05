@@ -33,7 +33,7 @@ public class UserController {
 	return userService.adduser(data);
 	}
 
-	@GetMapping("/list")
+	@GetMapping("user/list")
 	public List<UserModel> getUser(){
 	return userService.getall();
 
